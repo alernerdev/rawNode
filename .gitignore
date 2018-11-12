@@ -1,3 +1,6 @@
+# data files created
+users/*.json
+
 # Logs
 logs
 *.log
