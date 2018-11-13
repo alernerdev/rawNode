@@ -1,5 +1,5 @@
 # data files created
-users/*.json
+.data/users/*.*
 
 # Logs
 logs
