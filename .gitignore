@@ -1,5 +1,7 @@
 # data files created
 .data/users/*.*
+.data/tokens/*.*
+.data/checks/*.*
 
 # Logs
 logs
