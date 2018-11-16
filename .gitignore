@@ -2,7 +2,7 @@
 .data/users/*.*
 .data/tokens/*.*
 .data/checks/*.*
-.data/.logs/*.*
+.data/logs/*.*
 
 # Logs
 logs
