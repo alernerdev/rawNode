@@ -8,7 +8,7 @@
     "scripts": {
         "dev:check": "npm-run-all --parallel start lint:watch",
         "start": "node index.js",
-        "lint": "node_modules/.bin/esw lib *.js",
+        "lint": "node_modules/.bin/esw lib/*.js *.js",
         "lint:watch": "npm run lint -- --watch"
     },
     "devDependencies": {
