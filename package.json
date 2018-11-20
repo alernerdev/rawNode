@@ -3,11 +3,12 @@
         "chalk": "^2.4.1"
     },
     "engines": {
-        "node": ">=8.0.0"
+        "node": ">=8.5.0"
     },
     "scripts": {
-        "dev:check": "npm-run-all --parallel start lint:watch",
-        "start": "nodemon index.js",
+        "dev:check": "npm-run-all --parallel dev:start lint:watch",
+        "dev:start": "nodemon --use_strict index.js",
+        "start": "node index.js",
         "lint": "node_modules/.bin/esw lib/*.js *.js",
         "lint:watch": "npm run lint -- --watch"
     },
